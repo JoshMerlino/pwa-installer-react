@@ -26,6 +26,8 @@
     },
     "dependencies": {
         "dotenv": "^10.0.0",
+        "photoncss": "^12.20.20",
+        "prop-types": "^15.7.2",
         "react": "^17.0.2"
     }
 }
