@@ -15,7 +15,7 @@ window.addEventListener("beforeinstallprompt", event => {
 	installer = event as BeforeInstallPromptEvent;
 });
 
-export default class TSXComponent extends Component<Props, { ready: boolean }> {
+export default class PWAInstaller extends Component<Props, { ready: boolean }> {
 
 	_mounted = false;
 
