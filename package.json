@@ -1,6 +1,6 @@
 {
     "name": "pwa-installer-react",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "A React component to prompt users to install a progressive web app.",
     "main": "lib/",
     "types": "lib/",
