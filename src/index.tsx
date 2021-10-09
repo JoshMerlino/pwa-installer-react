@@ -28,7 +28,6 @@ export default class PWAInstaller extends Component<Props, { ready: boolean }> {
 		(function listen(){
 			requestAnimationFrame(listen);
 			if (installer !== _cache && _this._mounted) {
-				console.log(installer);
 				_cache = installer;
 				_this.setState({ ready: installer !== null });
 			}
@@ -44,8 +43,7 @@ export default class PWAInstaller extends Component<Props, { ready: boolean }> {
 	}
 
 	install(): void {
-		console.log("installing...");
-		if (installer === null) return console.error("not ready");
+		if (installer === null) return
 		installer.userChoice.then(result => {
 			if (result.outcome === "accepted") installer = null;
 		});
