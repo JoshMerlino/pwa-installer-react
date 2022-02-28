@@ -32,7 +32,7 @@ export default class Installer extends Component<InstallerProps, any> {
 
 	render(): JSX.Element {
 		return (
-			<Card className="pwa-installer hidden" id={this.id} style={{ zIndex: 69420 }}>
+			<Card className="pwa-installer hidden" id={this.id}>
 				<div className="pwa-installer-body">
 					<img src="/icon.png" alt=""/>
 					<div>
